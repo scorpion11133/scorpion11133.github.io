@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Haettenschweiler";
+  src: url("../fonts/Haettenschweiler.woff2") format("woff2"), url("../fonts/Haettenschweiler.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadPro-Bold.woff2") format("woff2"), url("../fonts/MyriadPro-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff");
+  font-display: swap;
+}
+/*=========================================*/
+/*                  Spec                   */
+/*=========================================*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Haettenschweiler, sans-serif;
+  font-size: 15px;
+  color: #363636;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font-size: 71px;
+}
+
+h3 {
+  font-size: 55px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+h5 {
+  font-size: 23px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:active,
+a:hover {
+  outline: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+input,
+input:active,
+input:focus,
+input:hover,
+textarea,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn:hover {
+  color: #363636;
+  box-shadow: -1px -15px 19px 5px rgba(51, 109, 116, 0.13);
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/*=========================================*/
+/*                  header                 */
+/*=========================================*/
+
+
+/*=========================================*/
+/*                  mainScreen             */
+/*=========================================*/
+
+
+/*=========================================*/
+/*                  offer                  */
+/*=========================================*/
+
+
+/*=========================================*/
+/*                  region                 */
+/*=========================================*/
+
+
+/*=========================================*/
+/*                  numbers                */
+/*=========================================*/
+
+
+/*=========================================*/
+/*                  numbers                */ 
+/*=========================================*/
+
+/*=========================================*/
+/*=========================================*/
+/*                  Media                  */
+/*=========================================*/
+/*=========================================*/
+/* m-first */
+@media screen and (min-width: 768px) {
+  
+}
+@media screen and (min-width: 1200px) {
+
+}
+/* m-last */
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 576px) {
+  
+}
